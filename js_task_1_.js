@@ -5,8 +5,16 @@
 //     cgpa : 8.2,
 //     ispass : true
 // };
-// console.log(student.age);
-// console.log(student["fullname"]);
+// // console.log(student.age);
+// // console.log(student["fullname"]);
+// document.write(student);
+
+//splice funcion //change the element with new element
+var partners = ["shyam" ,"radhesh", "gotya", "pratham", "vedant"];
+
+// partners.splice( 3,4);
+// console.log(partners);
+document.write(partners);
 
 // let name = prompt("what is your name ");
 
@@ -45,9 +53,9 @@
 
 // console.log("according to your score your grades is : " , grades);
 
-//for of for
-let name = "najimdp";
+// for of for
+// let name = "najimdp";
 
-for( let i of name){
-    console.log(i);
-}
+// for( let i of name){
+//     console.log(i);
+// }
